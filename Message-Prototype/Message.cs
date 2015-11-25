@@ -7,7 +7,7 @@ namespace Message_Prototype
 {
     public class Message
     {
-        public str MessageText { get; set; }
+        public string MessageText { get; set; }
         public DateTime SentTime { get; set; }
 
 
