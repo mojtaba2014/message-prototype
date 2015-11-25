@@ -8,7 +8,15 @@
 </head>
 <body>
     <h1>Send Message</h1>
+    <p>choice reciver:</p>
     <form id="form1" runat="server">
+        <p>
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server" AutoPostBack="True">
+                <asp:ListItem>personal</asp:ListItem>
+                <asp:ListItem>doktor</asp:ListItem>
+                <asp:ListItem>another </asp:ListItem>
+            </asp:RadioButtonList>
+        </p>
     <div>
         <textarea id="TextArea1" cols="20" name="S1" rows="2" runat ="server"></textarea>
     </div>
