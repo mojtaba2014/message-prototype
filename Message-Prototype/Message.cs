@@ -7,5 +7,14 @@ namespace Message_Prototype
 {
     public class Message
     {
+        public str MessageText { get; set; }
+        public DateTime SentTime { get; set; }
+
+
+        public Message()
+        {
+            this.MessageText = MessageText;
+            this.SentTime = SentTime;
+        }
     }
 }
